@@ -1,0 +1,157 @@
+2025-11-16T14:37:11.091Z [DEBUG] Watching for changes in setting files C:\Users\wpus1Zz\.claude\settings.json...
+2025-11-16T14:37:11.182Z [DEBUG] Using bash path: "D:\Git\bin\bash.exe"
+2025-11-16T14:37:11.183Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-16T14:37:11.184Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-16T14:37:11.185Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-16T14:37:11.186Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-16T14:37:11.186Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-16T14:37:11.208Z [DEBUG] Applying permission update: Adding 39 allow rule(s) to destination 'userSettings': ["Bash(tree:*)","Bash(python3:*)","Bash(python manage.py check:*)","Bash(python:*)","Bash(chmod:*)","Bash(source:*)","Bash(conda activate:*)","Bash(export DJANGO_SETTINGS_MODULE=config.settings.development)","Bash(export:*)","Bash(sqlite3:*)","mcp__browser-tools__takeScreenshot","mcp__ide__getDiagnostics","Bash(lsof:*)","Bash(npm run dev)","mcp__browser-tools__getConsoleErrors","Read(//tmp/**)","mcp__browser-tools__getConsoleLogs","mcp__browser-tools__getNetworkErrors","mcp__browser-tools__wipeLogs","Bash(xargs:*)","Bash(curl:*)","Bash(git add:*)","Bash(git rm:*)","Bash(bash:*)","mcp__browser-tools__getNetworkLogs","Bash(echo:*)","Bash(env:*)","Bash(nvm:*)","Read(//root/.nvm/versions/node/**)","Bash(find:*)","WebSearch","Bash(git ls-tree:*)","Bash(npm run type-check:*)","WebFetch(domain:localhost)","Bash(git checkout:*)","mcp__context7__resolve-library-id","mcp__context7__get-library-docs","Bash(git commit -m \"$(cat <<''EOF''\ndocs: 添加OpenSpec规范文档和项目上下文中文翻译\n\n- 新增openspec文件夹包含项目规范管理文档\n- 翻译AGENTS.md为中文版本，提供完整的OpenSpec工作流指南\n- 翻译project.md为中文版本，详细描述AIModelRetrieval项目架构\n- 包含三阶段工作流：创建变更、实施变更、归档变更\n- 为AI助手提供规范驱动开发指南和项目上下文信息\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")","Bash(git commit -m \"$(cat <<''EOF''\nfeat: 更新3D查看器功能和配置文件\n\n- 更新NDSWebViewer核心文件和扩展组件\n- 添加新的动画编辑和PMI编辑扩展\n- 更新多语言支持文件（中文、英文、法文、德文、意大利文、日文、韩文、西班牙文、繁体中文）\n- 更新前端API配置和状态管理\n- 优化模型搜索和信息展示页面\n- 添加OpenSpec自定义命令支持\n- 更新Claude Code配置文件\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"]
+2025-11-16T14:37:11.210Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-16T14:37:11.216Z [DEBUG] Total LSP servers loaded: 0
+2025-11-16T14:37:11.242Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-16T14:37:11.242Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-16T14:37:11.277Z [DEBUG] LSP server manager initialized successfully
+2025-11-16T14:37:11.278Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-16T14:37:11.299Z [DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\wpus1Zz\.claude\skills, project=C:\WINDOWS\system32\.claude\skills
+2025-11-16T14:37:11.300Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-16T14:37:11.698Z [DEBUG] Creating shell snapshot for bash (D:\Git\bin\bash.exe)
+2025-11-16T14:37:11.699Z [DEBUG] Looking for shell config file: C:\Users\wpus1Zz\.bashrc
+2025-11-16T14:37:11.699Z [DEBUG] Shell config file not found: C:\Users\wpus1Zz\.bashrc, creating snapshot with Claude Code defaults only
+2025-11-16T14:37:11.700Z [DEBUG] Snapshots directory: C:\Users\wpus1Zz\.claude\shell-snapshots
+2025-11-16T14:37:11.710Z [DEBUG] Creating snapshot at: C:\Users\wpus1Zz\.claude\shell-snapshots\snapshot-bash-1763303831700-3vje1n.sh
+2025-11-16T14:37:11.711Z [DEBUG] Shell binary exists: true
+2025-11-16T14:37:11.711Z [DEBUG] Execution timeout: 10000ms
+2025-11-16T14:37:11.715Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\7f24b198-938a-428d-9059-13b05d5d97b2-agent-7f24b198-938a-428d-9059-13b05d5d97b2.json.tmp.46420.1763303831715
+2025-11-16T14:37:11.717Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-16T14:37:11.718Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\7f24b198-938a-428d-9059-13b05d5d97b2-agent-7f24b198-938a-428d-9059-13b05d5d97b2.json.tmp.46420.1763303831715 to C:\Users\wpus1Zz\.claude\todos\7f24b198-938a-428d-9059-13b05d5d97b2-agent-7f24b198-938a-428d-9059-13b05d5d97b2.json
+2025-11-16T14:37:11.719Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\7f24b198-938a-428d-9059-13b05d5d97b2-agent-7f24b198-938a-428d-9059-13b05d5d97b2.json written atomically
+2025-11-16T14:37:11.730Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-16T14:37:11.731Z [DEBUG] Total plugin skills loaded: 0
+2025-11-16T14:37:11.731Z [DEBUG] Total plugin commands loaded: 0
+2025-11-16T14:37:11.732Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-16T14:37:11.733Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-16T14:37:11.735Z [DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+2025-11-16T14:37:11.748Z [DEBUG] Total plugin agents loaded: 0
+2025-11-16T14:37:11.829Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=C:\Users\wpus1Zz\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\vendor\ripgrep\x64-win32\rg.exe)
+2025-11-16T14:37:12.431Z [DEBUG] Shell snapshot created successfully (344 bytes)
+2025-11-16T14:37:14.742Z [DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: rg: C:\WINDOWS\system32\LogFiles\WMI\RtBackup: 拒绝访问。 (os error 5)
+), 23807 results
+2025-11-16T14:37:15.230Z [ERROR] AbortError: AbortError: The operation was aborted
+    at abortChildProcess (node:child_process:759:27)
+    at AbortSignal.onAbortListener (node:child_process:829:7)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:778:26)
+    at runAbort (node:internal/abort_controller:488:10)
+    at abortSignal (node:internal/abort_controller:459:3)
+    at AbortController.abort (node:internal/abort_controller:507:5)
+    at Timeout._onTimeout (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:4117:5845)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+2025-11-16T14:37:16.032Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303836032
+2025-11-16T14:37:16.033Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:37:16.035Z [DEBUG] Temp file written successfully, size: 38347 bytes
+2025-11-16T14:37:16.036Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:37:16.036Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303836032 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:37:16.037Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:37:16.042Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303836042
+2025-11-16T14:37:16.043Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:37:16.044Z [DEBUG] Temp file written successfully, size: 38347 bytes
+2025-11-16T14:37:16.045Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:37:16.046Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303836042 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:37:16.047Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:37:52.981Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303872981
+2025-11-16T14:37:52.982Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:37:52.984Z [DEBUG] Temp file written successfully, size: 38347 bytes
+2025-11-16T14:37:52.984Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:37:52.985Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303872981 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:37:52.986Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:37:52.992Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303872992
+2025-11-16T14:37:52.993Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:37:52.994Z [DEBUG] Temp file written successfully, size: 38347 bytes
+2025-11-16T14:37:52.995Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:37:52.996Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303872992 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:37:52.997Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:37:56.907Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303876907
+2025-11-16T14:37:56.908Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:37:56.909Z [DEBUG] Temp file written successfully, size: 38418 bytes
+2025-11-16T14:37:56.910Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:37:56.911Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303876907 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:37:56.912Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.194Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881194
+2025-11-16T14:38:01.195Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.197Z [DEBUG] Temp file written successfully, size: 38835 bytes
+2025-11-16T14:38:01.198Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.198Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881194 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.199Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.268Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881268
+2025-11-16T14:38:01.268Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.270Z [DEBUG] Temp file written successfully, size: 38866 bytes
+2025-11-16T14:38:01.271Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.271Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881268 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.272Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.278Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881278
+2025-11-16T14:38:01.279Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.281Z [DEBUG] Temp file written successfully, size: 38886 bytes
+2025-11-16T14:38:01.281Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.282Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881278 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.283Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.307Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-11-16T14:38:01.308Z [DEBUG] Found 0 hook matchers in settings
+2025-11-16T14:38:01.309Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-11-16T14:38:01.373Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881373
+2025-11-16T14:38:01.374Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.375Z [DEBUG] Temp file written successfully, size: 38922 bytes
+2025-11-16T14:38:01.376Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.377Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881373 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.378Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.383Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881383
+2025-11-16T14:38:01.384Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.385Z [DEBUG] Temp file written successfully, size: 38922 bytes
+2025-11-16T14:38:01.386Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.386Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881383 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.387Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.395Z [DEBUG] performStartupChecks called
+2025-11-16T14:38:01.396Z [DEBUG] Starting background plugin installations
+2025-11-16T14:38:01.397Z [DEBUG] performBackgroundPluginInstallations called
+2025-11-16T14:38:01.407Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-16T14:38:01.414Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881414
+2025-11-16T14:38:01.415Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:01.416Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-16T14:38:01.417Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:01.418Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303881414 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:01.419Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:01.424Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2025-11-16T14:38:01.433Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-11-16T14:38:01.537Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-16T14:38:01.539Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-16T14:38:02.057Z [DEBUG] Stream started - received first chunk
+2025-11-16T14:38:02.333Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303882333
+2025-11-16T14:38:02.334Z [DEBUG] Preserving file permissions: 100666
+2025-11-16T14:38:02.335Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-16T14:38:02.336Z [DEBUG] Applied original permissions to temp file
+2025-11-16T14:38:02.337Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.46420.1763303882333 to C:\Users\wpus1Zz\.claude.json
+2025-11-16T14:38:02.338Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-16T14:38:02.392Z [DEBUG] Stream started - received first chunk
+2025-11-16T14:38:03.799Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-16T14:38:03.799Z [DEBUG] Found 0 hook matchers in settings
+2025-11-16T14:38:03.800Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-16T14:38:04.660Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-16T14:38:04.661Z [DEBUG] Found 0 hook matchers in settings
+2025-11-16T14:38:04.661Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-16T14:38:22.837Z [ERROR] Error: Error: read ECONNRESET
+    at RAA.from (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:49:51655)
+    at GH.<anonymous> (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:67:10018)
+    at GH.emit (node:events:508:28)
+    at GH.emit (node:domain:489:12)
+    at K51.<computed> (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:66:1119)
+    at ClientRequest.emit (node:events:520:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at rZA.request (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:69:2130)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async ke1 (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:2333:14651)
+2025-11-16T14:42:11.108Z [DEBUG] Metrics opt-out check failed: No API key available
+2025-11-16T14:42:11.110Z [DEBUG] Metrics check failed, defaulting to disabled
+2025-11-16T14:42:11.111Z [DEBUG] Metrics export disabled by organization setting

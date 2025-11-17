@@ -1,0 +1,375 @@
+2025-11-17T05:29:58.175Z [DEBUG] Watching for changes in setting files C:\Users\wpus1Zz\.claude\settings.json, C:\Users\wpus1Zz\.claude\settings.json...
+2025-11-17T05:29:58.278Z [DEBUG] Using bash path: "D:\Git\bin\bash.exe"
+2025-11-17T05:29:58.279Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-17T05:29:58.280Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-17T05:29:58.280Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-17T05:29:58.281Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-17T05:29:58.282Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-17T05:29:58.305Z [DEBUG] Applying permission update: Adding 39 allow rule(s) to destination 'userSettings': ["Bash(tree:*)","Bash(python3:*)","Bash(python manage.py check:*)","Bash(python:*)","Bash(chmod:*)","Bash(source:*)","Bash(conda activate:*)","Bash(export DJANGO_SETTINGS_MODULE=config.settings.development)","Bash(export:*)","Bash(sqlite3:*)","mcp__browser-tools__takeScreenshot","mcp__ide__getDiagnostics","Bash(lsof:*)","Bash(npm run dev)","mcp__browser-tools__getConsoleErrors","Read(//tmp/**)","mcp__browser-tools__getConsoleLogs","mcp__browser-tools__getNetworkErrors","mcp__browser-tools__wipeLogs","Bash(xargs:*)","Bash(curl:*)","Bash(git add:*)","Bash(git rm:*)","Bash(bash:*)","mcp__browser-tools__getNetworkLogs","Bash(echo:*)","Bash(env:*)","Bash(nvm:*)","Read(//root/.nvm/versions/node/**)","Bash(find:*)","WebSearch","Bash(git ls-tree:*)","Bash(npm run type-check:*)","WebFetch(domain:localhost)","Bash(git checkout:*)","mcp__context7__resolve-library-id","mcp__context7__get-library-docs","Bash(git commit -m \"$(cat <<''EOF''\ndocs: 添加OpenSpec规范文档和项目上下文中文翻译\n\n- 新增openspec文件夹包含项目规范管理文档\n- 翻译AGENTS.md为中文版本，提供完整的OpenSpec工作流指南\n- 翻译project.md为中文版本，详细描述AIModelRetrieval项目架构\n- 包含三阶段工作流：创建变更、实施变更、归档变更\n- 为AI助手提供规范驱动开发指南和项目上下文信息\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")","Bash(git commit -m \"$(cat <<''EOF''\nfeat: 更新3D查看器功能和配置文件\n\n- 更新NDSWebViewer核心文件和扩展组件\n- 添加新的动画编辑和PMI编辑扩展\n- 更新多语言支持文件（中文、英文、法文、德文、意大利文、日文、韩文、西班牙文、繁体中文）\n- 更新前端API配置和状态管理\n- 优化模型搜索和信息展示页面\n- 添加OpenSpec自定义命令支持\n- 更新Claude Code配置文件\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"]
+2025-11-17T05:29:58.306Z [DEBUG] Applying permission update: Adding 39 allow rule(s) to destination 'projectSettings': ["Bash(tree:*)","Bash(python3:*)","Bash(python manage.py check:*)","Bash(python:*)","Bash(chmod:*)","Bash(source:*)","Bash(conda activate:*)","Bash(export DJANGO_SETTINGS_MODULE=config.settings.development)","Bash(export:*)","Bash(sqlite3:*)","mcp__browser-tools__takeScreenshot","mcp__ide__getDiagnostics","Bash(lsof:*)","Bash(npm run dev)","mcp__browser-tools__getConsoleErrors","Read(//tmp/**)","mcp__browser-tools__getConsoleLogs","mcp__browser-tools__getNetworkErrors","mcp__browser-tools__wipeLogs","Bash(xargs:*)","Bash(curl:*)","Bash(git add:*)","Bash(git rm:*)","Bash(bash:*)","mcp__browser-tools__getNetworkLogs","Bash(echo:*)","Bash(env:*)","Bash(nvm:*)","Read(//root/.nvm/versions/node/**)","Bash(find:*)","WebSearch","Bash(git ls-tree:*)","Bash(npm run type-check:*)","WebFetch(domain:localhost)","Bash(git checkout:*)","mcp__context7__resolve-library-id","mcp__context7__get-library-docs","Bash(git commit -m \"$(cat <<''EOF''\ndocs: 添加OpenSpec规范文档和项目上下文中文翻译\n\n- 新增openspec文件夹包含项目规范管理文档\n- 翻译AGENTS.md为中文版本，提供完整的OpenSpec工作流指南\n- 翻译project.md为中文版本，详细描述AIModelRetrieval项目架构\n- 包含三阶段工作流：创建变更、实施变更、归档变更\n- 为AI助手提供规范驱动开发指南和项目上下文信息\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")","Bash(git commit -m \"$(cat <<''EOF''\nfeat: 更新3D查看器功能和配置文件\n\n- 更新NDSWebViewer核心文件和扩展组件\n- 添加新的动画编辑和PMI编辑扩展\n- 更新多语言支持文件（中文、英文、法文、德文、意大利文、日文、韩文、西班牙文、繁体中文）\n- 更新前端API配置和状态管理\n- 优化模型搜索和信息展示页面\n- 添加OpenSpec自定义命令支持\n- 更新Claude Code配置文件\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"]
+2025-11-17T05:29:58.308Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-17T05:29:58.314Z [DEBUG] Total LSP servers loaded: 0
+2025-11-17T05:29:58.343Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-17T05:29:58.344Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-17T05:29:58.383Z [DEBUG] LSP server manager initialized successfully
+2025-11-17T05:29:58.384Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-17T05:29:58.406Z [DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\wpus1Zz\.claude\skills, project=C:\Users\wpus1Zz\.claude\skills
+2025-11-17T05:29:58.407Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-17T05:29:58.729Z [DEBUG] Creating shell snapshot for bash (D:\Git\bin\bash.exe)
+2025-11-17T05:29:58.730Z [DEBUG] Looking for shell config file: C:\Users\wpus1Zz\.bashrc
+2025-11-17T05:29:58.731Z [DEBUG] Shell config file not found: C:\Users\wpus1Zz\.bashrc, creating snapshot with Claude Code defaults only
+2025-11-17T05:29:58.731Z [DEBUG] Snapshots directory: C:\Users\wpus1Zz\.claude\shell-snapshots
+2025-11-17T05:29:58.741Z [DEBUG] Creating snapshot at: C:\Users\wpus1Zz\.claude\shell-snapshots\snapshot-bash-1763357398731-k52a5h.sh
+2025-11-17T05:29:58.742Z [DEBUG] Shell binary exists: true
+2025-11-17T05:29:58.742Z [DEBUG] Execution timeout: 10000ms
+2025-11-17T05:29:58.749Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357398749
+2025-11-17T05:29:58.751Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-17T05:29:58.752Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357398749 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:29:58.753Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:29:58.757Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-17T05:29:58.758Z [DEBUG] Total plugin skills loaded: 0
+2025-11-17T05:29:58.758Z [DEBUG] Total plugin commands loaded: 0
+2025-11-17T05:29:58.759Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-17T05:29:58.761Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-17T05:29:58.763Z [DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+2025-11-17T05:29:58.764Z [DEBUG] Total plugin agents loaded: 0
+2025-11-17T05:29:59.284Z [DEBUG] Shell snapshot created successfully (344 bytes)
+2025-11-17T05:29:59.353Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357399353
+2025-11-17T05:29:59.354Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:29:59.355Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-17T05:29:59.356Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:29:59.357Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357399353 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:29:59.358Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:29:59.364Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357399364
+2025-11-17T05:29:59.365Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:29:59.366Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-17T05:29:59.367Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:29:59.367Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357399364 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:29:59.368Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:32:29.370Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549370
+2025-11-17T05:32:29.371Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:32:29.372Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-17T05:32:29.373Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:32:29.374Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549370 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:32:29.375Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:32:29.399Z [DEBUG] Skipping SessionStart:startup hook execution - workspace trust not accepted
+2025-11-17T05:32:29.457Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549457
+2025-11-17T05:32:29.458Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:32:29.460Z [DEBUG] Temp file written successfully, size: 38922 bytes
+2025-11-17T05:32:29.461Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:32:29.461Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549457 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:32:29.462Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:32:29.470Z [DEBUG] performStartupChecks called
+2025-11-17T05:32:29.471Z [DEBUG] Trust not accepted for current directory - skipping plugin installations
+2025-11-17T05:32:29.482Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-17T05:32:29.489Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549489
+2025-11-17T05:32:29.490Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:32:29.492Z [DEBUG] Temp file written successfully, size: 39027 bytes
+2025-11-17T05:32:29.492Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:32:29.493Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357549489 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:32:29.494Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:32:29.504Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-11-17T05:32:29.626Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:32:29.627Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:32:30.382Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:32:30.790Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:32:35.597Z [DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+2025-11-17T05:33:39.269Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-17T05:33:42.249Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:33:42.250Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:33:42.256Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:33:42.257Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:33:42.258Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:33:42.258Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:33:42.445Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:33:42.450Z [DEBUG] FileHistory: Added snapshot for b9db9668-0683-4cc0-886c-96cb779e0c97, tracking 0 files
+2025-11-17T05:33:42.542Z [DEBUG] Total plugin output styles loaded: 0
+2025-11-17T05:33:42.589Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:33:42.590Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:33:43.058Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:33:43.181Z [ERROR] SyntaxError: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:89:708
+    at Q (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:8:6501)
+    at kBQ (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:886:10080)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-11-17T05:33:43.704Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:33:44.072Z [DEBUG] Skipping Stop hook execution - workspace trust not accepted
+2025-11-17T05:33:44.112Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357624112
+2025-11-17T05:33:44.113Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:33:44.115Z [DEBUG] Temp file written successfully, size: 39076 bytes
+2025-11-17T05:33:44.116Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:33:44.116Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357624112 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:33:44.117Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:33:44.126Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357624126
+2025-11-17T05:33:44.127Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:33:44.129Z [DEBUG] Temp file written successfully, size: 39076 bytes
+2025-11-17T05:33:44.129Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:33:44.130Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357624126 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:33:44.131Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:33:55.561Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:33:55.562Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:33:55.567Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:33:55.567Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:33:55.568Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:33:55.569Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:33:55.596Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:33:55.601Z [DEBUG] FileHistory: Making snapshot for message ed612351-a957-4fff-a51e-dee0e6c773f0
+2025-11-17T05:33:55.602Z [DEBUG] FileHistory: Added snapshot for ed612351-a957-4fff-a51e-dee0e6c773f0, tracking 0 files
+2025-11-17T05:33:55.729Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:33:55.730Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:33:56.327Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:33:56.370Z [ERROR] SyntaxError: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:89:708
+    at Q (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:8:6501)
+    at kBQ (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:886:10080)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-11-17T05:33:56.900Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:33:58.844Z [DEBUG] Skipping Stop hook execution - workspace trust not accepted
+2025-11-17T05:33:58.883Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357638883
+2025-11-17T05:33:58.884Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:33:58.886Z [DEBUG] Temp file written successfully, size: 39114 bytes
+2025-11-17T05:33:58.887Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:33:58.887Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357638883 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:33:58.888Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:33:58.897Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357638897
+2025-11-17T05:33:58.898Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:33:58.900Z [DEBUG] Temp file written successfully, size: 39114 bytes
+2025-11-17T05:33:58.901Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:33:58.901Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357638897 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:33:58.902Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:34:33.844Z [DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+2025-11-17T05:34:54.810Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:34:54.811Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:34:54.816Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:34:54.817Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:34:54.818Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:34:54.818Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:34:54.843Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:34:54.847Z [DEBUG] FileHistory: Making snapshot for message e74cb5a1-c6a2-4fcc-befa-f7c810a783b6
+2025-11-17T05:34:54.848Z [DEBUG] FileHistory: Added snapshot for e74cb5a1-c6a2-4fcc-befa-f7c810a783b6, tracking 0 files
+2025-11-17T05:34:54.978Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:34:54.979Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:34:55.570Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:34:55.691Z [ERROR] SyntaxError: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:89:708
+    at Q (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:8:6501)
+    at kBQ (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:886:10080)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-11-17T05:34:56.410Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:34:57.586Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-17T05:34:57.588Z [DEBUG] Skipping PreToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:34:57.609Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357697609
+2025-11-17T05:34:57.610Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:34:57.611Z [DEBUG] Temp file written successfully, size: 577 bytes
+2025-11-17T05:34:57.612Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:34:57.613Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357697609 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:34:57.614Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:34:57.627Z [DEBUG] Skipping PostToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:34:57.678Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:34:57.678Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:34:57.684Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:34:57.685Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:34:57.685Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:34:57.686Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:34:57.720Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:34:57.721Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:34:58.187Z [DEBUG] Metrics opt-out check failed: No API key available
+2025-11-17T05:34:58.188Z [DEBUG] Metrics check failed, defaulting to disabled
+2025-11-17T05:34:58.189Z [DEBUG] Metrics export disabled by organization setting
+2025-11-17T05:34:59.726Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:34:59.962Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-17T05:34:59.963Z [DEBUG] Skipping PreToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:34:59.984Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357699984
+2025-11-17T05:34:59.984Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:34:59.986Z [DEBUG] Temp file written successfully, size: 581 bytes
+2025-11-17T05:34:59.987Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:34:59.987Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357699984 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:34:59.988Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:35:00.001Z [DEBUG] Skipping PostToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:35:00.053Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:35:00.054Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:35:00.060Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:35:00.060Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:35:00.061Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:35:00.062Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:35:00.094Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:35:00.094Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:35:00.827Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:35:01.892Z [DEBUG] Skipping Stop hook execution - workspace trust not accepted
+2025-11-17T05:35:01.945Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357701945
+2025-11-17T05:35:01.946Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:35:01.948Z [DEBUG] Temp file written successfully, size: 39139 bytes
+2025-11-17T05:35:01.949Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:35:01.949Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357701945 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:35:01.951Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:35:01.963Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357701963
+2025-11-17T05:35:01.964Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:35:01.966Z [DEBUG] Temp file written successfully, size: 39139 bytes
+2025-11-17T05:35:01.967Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:35:01.968Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357701963 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:35:01.969Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:01.939Z [DEBUG] Skipping Notification:idle_prompt hook execution - workspace trust not accepted
+2025-11-17T05:36:03.902Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:03.903Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:03.908Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:03.909Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:03.909Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:03.910Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:03.933Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:36:03.937Z [DEBUG] FileHistory: Making snapshot for message 0e509750-539e-4b97-86fa-2a465efaab62
+2025-11-17T05:36:03.938Z [DEBUG] FileHistory: Added snapshot for 0e509750-539e-4b97-86fa-2a465efaab62, tracking 0 files
+2025-11-17T05:36:04.071Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:04.072Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:04.722Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:04.765Z [ERROR] SyntaxError: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:89:708
+    at Q (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:8:6501)
+    at kBQ (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:886:10080)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-11-17T05:36:05.528Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:05.713Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-17T05:36:05.714Z [DEBUG] Skipping PreToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:05.735Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357765735
+2025-11-17T05:36:05.736Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:05.737Z [DEBUG] Temp file written successfully, size: 577 bytes
+2025-11-17T05:36:05.738Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:05.739Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357765735 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:36:05.740Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:36:05.752Z [DEBUG] Skipping PostToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:05.807Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:05.807Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:05.816Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:05.816Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:05.817Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:05.818Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:05.854Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:05.855Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:06.625Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:07.703Z [DEBUG] Skipping Stop hook execution - workspace trust not accepted
+2025-11-17T05:36:07.744Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357767744
+2025-11-17T05:36:07.745Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:07.747Z [DEBUG] Temp file written successfully, size: 39164 bytes
+2025-11-17T05:36:07.748Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:07.748Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357767744 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:07.749Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:07.758Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357767758
+2025-11-17T05:36:07.759Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:07.761Z [DEBUG] Temp file written successfully, size: 39164 bytes
+2025-11-17T05:36:07.761Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:07.762Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357767758 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:07.763Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:14.843Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:14.844Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:14.849Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:14.850Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:14.850Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:14.851Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:14.878Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:36:14.883Z [DEBUG] FileHistory: Making snapshot for message daa4194a-aaff-4d59-a29c-20273a583656
+2025-11-17T05:36:14.884Z [DEBUG] FileHistory: Added snapshot for daa4194a-aaff-4d59-a29c-20273a583656, tracking 0 files
+2025-11-17T05:36:15.024Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:15.025Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:15.889Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:16.055Z [ERROR] SyntaxError: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:89:708
+    at Q (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:8:6501)
+    at kBQ (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:886:10080)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-11-17T05:36:16.293Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:16.356Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-17T05:36:16.357Z [DEBUG] Skipping PreToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:16.377Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357776377
+2025-11-17T05:36:16.378Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:16.380Z [DEBUG] Temp file written successfully, size: 430 bytes
+2025-11-17T05:36:16.381Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:16.382Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357776377 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:36:16.383Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:36:16.396Z [DEBUG] Skipping PostToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:16.447Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:16.448Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:16.455Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:16.455Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:16.456Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:16.456Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:16.489Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:16.490Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:17.399Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:17.888Z [DEBUG] Skipping Stop hook execution - workspace trust not accepted
+2025-11-17T05:36:17.930Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357777930
+2025-11-17T05:36:17.931Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:17.932Z [DEBUG] Temp file written successfully, size: 39188 bytes
+2025-11-17T05:36:17.933Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:17.934Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357777930 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:17.935Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:17.945Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357777945
+2025-11-17T05:36:17.946Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:17.948Z [DEBUG] Temp file written successfully, size: 39188 bytes
+2025-11-17T05:36:17.949Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:17.949Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357777945 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:17.950Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:24.899Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:24.900Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:24.906Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:24.907Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:24.907Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:24.908Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:24.933Z [DEBUG] Skipping UserPromptSubmit hook execution - workspace trust not accepted
+2025-11-17T05:36:24.938Z [DEBUG] FileHistory: Making snapshot for message 2961713a-4a57-4cf9-8ea3-158499d19d4c
+2025-11-17T05:36:24.939Z [DEBUG] FileHistory: Added snapshot for 2961713a-4a57-4cf9-8ea3-158499d19d4c, tracking 0 files
+2025-11-17T05:36:25.067Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:25.067Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:26.042Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:26.324Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:26.388Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-17T05:36:26.389Z [DEBUG] Skipping PreToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:26.409Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357786409
+2025-11-17T05:36:26.410Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:26.411Z [DEBUG] Temp file written successfully, size: 430 bytes
+2025-11-17T05:36:26.412Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:26.413Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json.tmp.26508.1763357786409 to C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json
+2025-11-17T05:36:26.414Z [DEBUG] File C:\Users\wpus1Zz\.claude\todos\1d6c9831-c94c-4512-a57b-c37cf4ee5acc-agent-1d6c9831-c94c-4512-a57b-c37cf4ee5acc.json written atomically
+2025-11-17T05:36:26.426Z [DEBUG] Skipping PostToolUse:TodoWrite hook execution - workspace trust not accepted
+2025-11-17T05:36:26.477Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-17T05:36:26.478Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-17T05:36:26.484Z [DEBUG] Hooks: getAsyncHookResponseAttachments called
+2025-11-17T05:36:26.485Z [DEBUG] Hooks: checkForNewResponses called
+2025-11-17T05:36:26.485Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-17T05:36:26.486Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-17T05:36:26.523Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-17T05:36:26.523Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-17T05:36:27.374Z [DEBUG] Stream started - received first chunk
+2025-11-17T05:36:27.431Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787431
+2025-11-17T05:36:27.432Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:27.434Z [DEBUG] Temp file written successfully, size: 39210 bytes
+2025-11-17T05:36:27.435Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:27.435Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787431 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:27.436Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:27.439Z [DEBUG] Streaming aborted by user: Request was aborted.
+2025-11-17T05:36:27.440Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2025-11-17T05:36:27.441Z [ERROR] Error: Error: Request was aborted.
+    at _n._createMessage (file:///C:/Users/wpus1Zz/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/cli.js:439:4515)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at runNextTicks (node:internal/process/task_queues:68:3)
+    at listOnTimeout (node:internal/timers:567:9)
+    at process.processTimers (node:internal/timers:541:7)
+2025-11-17T05:36:27.510Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787510
+2025-11-17T05:36:27.511Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:27.513Z [DEBUG] Temp file written successfully, size: 39237 bytes
+2025-11-17T05:36:27.514Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:27.514Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787510 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:27.515Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:36:27.525Z [DEBUG] Writing to temp file: C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787525
+2025-11-17T05:36:27.526Z [DEBUG] Preserving file permissions: 100666
+2025-11-17T05:36:27.528Z [DEBUG] Temp file written successfully, size: 39237 bytes
+2025-11-17T05:36:27.529Z [DEBUG] Applied original permissions to temp file
+2025-11-17T05:36:27.529Z [DEBUG] Renaming C:\Users\wpus1Zz\.claude.json.tmp.26508.1763357787525 to C:\Users\wpus1Zz\.claude.json
+2025-11-17T05:36:27.530Z [DEBUG] File C:\Users\wpus1Zz\.claude.json written atomically
+2025-11-17T05:37:27.505Z [DEBUG] Skipping Notification:idle_prompt hook execution - workspace trust not accepted
+2025-11-17T05:39:58.187Z [DEBUG] Metrics opt-out check failed: No API key available
+2025-11-17T05:39:58.188Z [DEBUG] Metrics check failed, defaulting to disabled
+2025-11-17T05:39:58.189Z [DEBUG] Metrics export disabled by organization setting
