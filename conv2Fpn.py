@@ -250,9 +250,10 @@ class SpatialAttention(nn.Module):
     def forward(self, x):
         avg_out = torch.mean(x, dim=1, keepdim=True)
         max_out, _ = torch.max(x, dim=1, keepdim=True)
-        x = torch.cat([avg_out, max_out], dim=1)
-        x = self.conv1(x)
-        return self.sigmoid(x)
+        attn = torch.cat([avg_out, max_out], dim=1)
+        attn = self.conv1(attn)
+        attn = self.sigmoid(attn)
+        return x * attn
 
 
 class SEBlock(nn.Module):
@@ -541,7 +542,7 @@ class NormedLinear(nn.Module):
 
 
 class CL_Prompt_Fpn(nn.Module):
-    def __init__(self, pretrained=False):# <- 新增 pretrained 参数
+    def __init__(self, pretrained=True):# <- 新增 pretrained 参数
         super().__init__()
         self.backbone = model
         if pretrained:
